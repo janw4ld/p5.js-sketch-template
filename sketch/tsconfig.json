@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "outDir": "dist",
+
+    "lib": ["es2022", "dom", "dom.iterable"],
+    "skipLibCheck": true,
+    "target": "es2022",
+
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    // ensures the project can be run with `node --strip-types server.ts`
+    "erasableSyntaxOnly": true,
+
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "esModuleInterop": true
+  }
+}
